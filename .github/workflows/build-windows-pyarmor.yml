@@ -81,7 +81,7 @@ jobs:
             Move-Item -Force $exePath .\GalaxyTimer.exe
             Write-Host "Moved to GalaxyTimer.exe"
           } else {
-            Write-Error "GalaxyTimer.exe not found in the dist directory."
+            Write-Error "SaveGalaxyTimer.exe not found in the dist directory."
           }
 
       - name: Clean intermediate files (optional)
